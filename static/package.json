@@ -1,0 +1,18 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "go": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -2,6 +2,8 @@
 
 A sample setup for integrating **Tailwind CSS** with **Django**.
 
+<img src="https://github.com/Mohammadshekari/Django-Tailwind-Sample/tree/main/screenshots/img.png?raw=true" width="500">
+
 ## Run Project
 
 Clone the repository:

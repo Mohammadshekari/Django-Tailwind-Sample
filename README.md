@@ -76,8 +76,8 @@ Modify your `package.json` and add these scripts under `scripts`:
 
 ```json
 "scripts": {
-  "dev": "npx tailwindcss -i ../static/src/input.css -o ./src/output.css --watch --minify",
-  "build": "npx tailwindcss -i ../static/src/input.css -o ./src/output.css --minify"
+    "dev": "npx tailwindcss -i ./src/input.css -o ../static/src/output.css --watch --minify",
+    "build": "npx tailwindcss -i ./src/input.css -o ../static/src/output.css --minify"
 }
 ```
 

@@ -1,7 +1,3 @@
-Here’s an improved **README.md** with **GitHub-related sections** and an **MIT license**:
-
----
-
 # Django Tailwind Sample
 
 A sample setup for integrating **Tailwind CSS** with **Django**.

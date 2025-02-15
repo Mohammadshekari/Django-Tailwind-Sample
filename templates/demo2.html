@@ -1,0 +1,482 @@
+{% extends 'base.html' %}
+{% block body %}
+	<div id="top"
+		 class="antialiased overflow-hidden flex flex-col min-h-screen text-[#091135] text-md max-w-full leading-normal ">
+		<span class="fixed right-4 bottom-4 z-[99] inline-block">
+			<button type="button" class="ck-button ck-button--tertiary--blue border">
+				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="currentColor">
+					<path fill-rule="evenodd"
+						  d="M1.5,3.37554162 C3.16666667,2.45851387 5.66666667,1.66666667 9,1 C12.3333333,1.66666667 14.8333333,2.45851387 16.5,3.37554162 C16.2004881,6.40793697 16.5309334,9.96567929 15.4913359,12.0487686 C14.8425765,13.3487177 13.074602,14.6779099 10.1874125,16.0363451 L9.83558332,16.1995104 C9.30539519,16.4418795 8.69584737,16.4408608 8.16647232,16.1967209 C5.05957957,14.7638682 3.17364411,13.3812187 2.50866591,12.0487723 C1.46906734,9.9656823 1.79951203,6.40793875 1.5,3.37554162 Z M11.5124743,5.59759199 L11.4436625,5.67519711 L8.115,10.0330366 L6.49949478,8.38740135 L6.41340969,8.31279938 C6.1416811,8.11347393 5.75786396,8.13455674 5.50958694,8.37831963 C5.26130993,8.62208252 5.23318875,9.00544824 5.42749522,9.28078814 L5.50050522,9.36822746 L7.6823234,11.5904497 L7.76087306,11.6595027 C8.03216464,11.864448 8.41470343,11.842908 8.66132243,11.6102332 L8.73815565,11.5248762 L12.5563375,6.52487615 L12.613085,6.43805833 C12.7782128,6.13944029 12.7041638,5.75700133 12.4248395,5.54369916 C12.1765513,5.35409723 11.8420474,5.35615315 11.5989881,5.52605677 L11.5124743,5.59759199 Z"
+						  fill=""></path>
+				</svg>
+			</button>
+		</span>
+		<div class="transition duration-1000 fixed left-0 right-0 bottom-0 z-[100] text-left"
+			 id="cookies-consent"></div>
+		<header class="fixed w-full z-[1000] bg-white">
+			<nav class="
+        transition duration-300 py-4 px-4
+
+
+      ">
+				<div class="max-w-7xl flex items-center justify-between mx-auto"><a class="inline-flex items-center"
+																					href="/"><img
+						src="https://clearbit.com/clearbit_by_hubspot.png" alt="Clearbit by HubSpot" width="160"></a><a class="
+              ck-button-new ck-button-new--bold--blue
+              px-4 py-2 rounded-md text-sm font-medium
+              bg-blue-600 text-white hover:bg-blue-700
+              transition duration-300 ease-in-out
+            " href="/login">Clearbit customer login</a></div>
+			</nav>
+		</header>
+		<div class="main-container lg:overflow-visible relative overflow-hidden">
+			<section>
+				<div class="md:mb-0 lg:mt-36 mt-28 relative z-10 mb-8 text-center">
+					<div class="relative flex flex-col items-center justify-center"><h1 class="ck-h1-new max-w-[850px]">
+						Clearbit has joined HubSpot!</h1>
+						<div class="lg:text-lg mb-12 text-lg font-normal max-w-[62ch]"><p>The best B2B data provider is
+							now part of the best B2B customer platform!</p></div>
+					</div>
+				</div>
+			</section>
+			<section class="main-container lg:pb-32 relative flex flex-col items-center justify-center pt-0 pb-16">
+				<div class="relative w-full max-w-4xl mx-auto"><a
+						href="https://www.hubspot.com/products/artificial-intelligence" class="block">
+					<div class="hover:shadow-xl w-full overflow-hidden transition duration-300 bg-white rounded-lg shadow-lg">
+						<div class="md:flex-row flex flex-col">
+							<div class="md:w-1/2 relative min-h-[200px] md:min-h-[400px] order-1 md:order-2">
+								<div class="absolute inset-0 bg-center bg-cover"
+									 style="background-image:url('https://clearbit.com/images/breeze-block.svg')"></div>
+							</div>
+							<div class="md:w-1/2 md:p-8 md:order-1 relative flex flex-col justify-center order-2 p-6 text-black">
+								<div class="relative z-10"><h1 class="ck-h4-new max-w-[850px]">Breeze Intelligence for
+									HubSpot</h1>
+									<p class="text-md mb-6">To reach the right audiences and get the most out of AI, you
+										need the right data. With Breeze Intelligence, you ‌get a full picture of your
+										prospects and customers — making your marketing, sales, and service efforts even
+										more effective.</p><span
+											class="md:w-auto hover:bg-gray-200 inline-block px-4 py-2 text-gray-900 transition duration-300 bg-gray-100 rounded-lg">Check
+										out Breeze!</span></div>
+							</div>
+						</div>
+					</div>
+				</a></div>
+			</section>
+			<section class="main-container text-center"
+					 style="background:linear-gradient(#F6F8FA60 0%, rgba(246, 248, 250, 0.00) 100%)">
+				<div class="main-container relative text-center">
+					<div class="relative flex flex-col items-center justify-center"><img
+							class="-top-0 absolute w-full z-[1]" src="https://clearbit.com/images/homepage/subsection-dots.svg"
+							alt="dots-background"><img class="h-96 -top-20 absolute my-auto"
+													   src="https://clearbit.com/images/homepage/data-section-colors.svg"
+													   alt="gradient-background">
+						<div class="ck-box z-10 w-16 h-16 my-auto mb-12 flex justify-center items-center rounded-xl">
+							<div class="" style="width: 100%; height: auto;">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+									 viewBox="0 0 288 288" width="288" height="288" class="lottie-svg"
+									 preserveAspectRatio="xMidYMid meet"
+									 style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+									<defs>
+										<clipPath id="__lottie_element_2">
+											<rect width="288" height="288" x="0" y="0"></rect>
+										</clipPath>
+									</defs>
+									<g clip-path="url(#__lottie_element_2)">
+										<g transform="matrix(1,0,0,1,184,184)" opacity="1" style="display: block;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(214,238,255)" fill-opacity="1"
+													  d=" M-9.699999809265137,10 C-8.104000091552734,10 -0.6830000281333923,10 -0.6830000281333923,10 C3.0320000648498535,10 4.379000186920166,9.61299991607666 5.736999988555908,8.88700008392334 C7.09499979019165,8.16100025177002 8.16100025177002,7.09499979019165 8.88700008392334,5.736999988555908 C9.61299991607666,4.379000186920166 10,3.0320000648498535 10,-0.6830000281333923 C10,-0.6830000281333923 10,-0.6830000281333923 10,-0.6830000281333923 C10,-0.6830000281333923 10,-10 10,-10 C10,-10 -10,-10 -10,-10 C-10,-10 -10,10 -10,10 C-10,10 -9.892000198364258,10 -9.699999809265137,10"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(214,238,255)" stroke-opacity="1"
+													  stroke-width="0"
+													  d=" M-9.699999809265137,10 C-8.104000091552734,10 -0.6830000281333923,10 -0.6830000281333923,10 C3.0320000648498535,10 4.379000186920166,9.61299991607666 5.736999988555908,8.88700008392334 C7.09499979019165,8.16100025177002 8.16100025177002,7.09499979019165 8.88700008392334,5.736999988555908 C9.61299991607666,4.379000186920166 10,3.0320000648498535 10,-0.6830000281333923 C10,-0.6830000281333923 10,-0.6830000281333923 10,-0.6830000281333923 C10,-0.6830000281333923 10,-10 10,-10 C10,-10 -10,-10 -10,-10 C-10,-10 -10,10 -10,10 C-10,10 -9.892000198364258,10 -9.699999809265137,10"></path>
+											</g>
+										</g>
+										<g transform="matrix(1.0000065565109253,0,0,1.0000065565109253,184,104)"
+										   opacity="1" style="display: block;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(92,173,255)" fill-opacity="1"
+													  d=" M-9.163999557495117,-10 C-9.682000160217285,-10 -10,-10 -10,-10 C-10,-10 -10,10 -10,10 C-10,10 10,10 10,10 C10,10 10,0.6830000281333923 10,0.6830000281333923 C10,-3.0320000648498535 9.61299991607666,-4.379000186920166 8.88700008392334,-5.736999988555908 C8.16100025177002,-7.09499979019165 7.09499979019165,-8.16100025177002 5.736999988555908,-8.88700008392334 C4.379000186920166,-9.61299991607666 3.0320000648498535,-10 -0.6830000281333923,-10 C-0.6830000281333923,-10 -0.6830000281333923,-10 -0.6830000281333923,-10 C-0.6830000281333923,-10 -6.875999927520752,-10 -9.163999557495117,-10"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(91,173,255)" stroke-opacity="1"
+													  stroke-width="0"
+													  d=" M-9.163999557495117,-10 C-9.682000160217285,-10 -10,-10 -10,-10 C-10,-10 -10,10 -10,10 C-10,10 10,10 10,10 C10,10 10,0.6830000281333923 10,0.6830000281333923 C10,-3.0320000648498535 9.61299991607666,-4.379000186920166 8.88700008392334,-5.736999988555908 C8.16100025177002,-7.09499979019165 7.09499979019165,-8.16100025177002 5.736999988555908,-8.88700008392334 C4.379000186920166,-9.61299991607666 3.0320000648498535,-10 -0.6830000281333923,-10 C-0.6830000281333923,-10 -0.6830000281333923,-10 -0.6830000281333923,-10 C-0.6830000281333923,-10 -6.875999927520752,-10 -9.163999557495117,-10"></path>
+											</g>
+										</g>
+										<g transform="matrix(1.0000033378601074,0,0,1.0000033378601074,104,144)"
+										   opacity="1" style="display: block;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(15,119,255)" fill-opacity="1"
+													  d=" M10,-20 C10,-20 0.6830000281333923,-20 0.6830000281333923,-20 C-3.0320000648498535,-20 -4.379000186920166,-19.613000869750977 -5.736999988555908,-18.886999130249023 C-7.09499979019165,-18.160999298095703 -8.16100025177002,-17.094999313354492 -8.88700008392334,-15.737000465393066 C-9.61299991607666,-14.378999710083008 -10,-13.031999588012695 -10,-9.317000389099121 C-10,-9.317000389099121 -10,9.317000389099121 -10,9.317000389099121 C-10,13.031999588012695 -9.61299991607666,14.378999710083008 -8.88700008392334,15.737000465393066 C-8.16100025177002,17.094999313354492 -7.09499979019165,18.160999298095703 -5.736999988555908,18.886999130249023 C-4.379000186920166,19.613000869750977 -3.0320000648498535,20 0.6830000281333923,20 C0.6830000281333923,20 10,20 10,20 C10,20 10,-20 10,-20z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(15,119,255)" stroke-opacity="1"
+													  stroke-width="0"
+													  d=" M10,-20 C10,-20 0.6830000281333923,-20 0.6830000281333923,-20 C-3.0320000648498535,-20 -4.379000186920166,-19.613000869750977 -5.736999988555908,-18.886999130249023 C-7.09499979019165,-18.160999298095703 -8.16100025177002,-17.094999313354492 -8.88700008392334,-15.737000465393066 C-9.61299991607666,-14.378999710083008 -10,-13.031999588012695 -10,-9.317000389099121 C-10,-9.317000389099121 -10,9.317000389099121 -10,9.317000389099121 C-10,13.031999588012695 -9.61299991607666,14.378999710083008 -8.88700008392334,15.737000465393066 C-8.16100025177002,17.094999313354492 -7.09499979019165,18.160999298095703 -5.736999988555908,18.886999130249023 C-4.379000186920166,19.613000869750977 -3.0320000648498535,20 0.6830000281333923,20 C0.6830000281333923,20 10,20 10,20 C10,20 10,-20 10,-20z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,-0.000008906712537282147,0.000008906712537282147,1,144,64)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,-0.000008906712537282147,0.000008906712537282147,1,144,64)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(15,119,255)" stroke-opacity="1"
+													  stroke-width="1.5"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,-0.0000022497231384477345,0.0000022497231384477345,1,224,144)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,-0.0000022497231384477345,0.0000022497231384477345,1,224,144)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(214,238,255)" stroke-opacity="1"
+													  stroke-width="1.5"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0.000008906712537282147,-0.000008906712537282147,1,144,224)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0.000008906712537282147,-0.000008906712537282147,1,144,224)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(15,119,255)" stroke-opacity="1"
+													  stroke-width="1.5"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,-0.0000022497231384477345,0.0000022497231384477345,1,144,144)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,-0.0000022497231384477345,0.0000022497231384477345,1,144,144)"
+										   opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(91,173,255)" stroke-opacity="1"
+													  stroke-width="1.5"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,104.53150939941406,103.46849060058594)"
+										   opacity="0.004333333333044464" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,104,104)" opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(1,0,0,1,0,0)">
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(91,173,255)" stroke-opacity="1"
+													  stroke-width="7.49987587991608" d="M0 0"></path>
+											</g>
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(15,119,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(15,119,255)" stroke-opacity="1"
+													  stroke-width="7.49987587991608"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,191.8728790283203,176.1271209716797)"
+										   opacity="0.004333333333044464" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,184.00083923339844,183.99916076660156)" opacity="1"
+										   style="display: none;">
+											<g opacity="1" transform="matrix(1,0,0,1,0,0)">
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(91,173,255)" stroke-opacity="1"
+													  stroke-width="7.49987587991608" d="M0 0"></path>
+											</g>
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(214,238,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(214,238,255)" stroke-opacity="1"
+													  stroke-width="7.49987587991608"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,104.53150939941406,184.53150939941406)"
+										   opacity="0.004333333333044464" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,104,184)" opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(1,0,0,1,0,0)">
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(91,173,255)" stroke-opacity="1"
+													  stroke-width="7.49987587991608" d="M0 0"></path>
+											</g>
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(15,119,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(15,119,255)" stroke-opacity="1"
+													  stroke-width="7.49987587991608"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,183.46849060058594,104.53150939941406)"
+										   opacity="0.004333333333044464" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(255,255,255)" fill-opacity="1"
+													  d=" M0,-6 C3.3113999366760254,-6 6,-3.3113999366760254 6,0 C6,3.3113999366760254 3.3113999366760254,6 0,6 C-3.3113999366760254,6 -6,3.3113999366760254 -6,0 C-6,-3.3113999366760254 -3.3113999366760254,-6 0,-6z"></path>
+											</g>
+										</g>
+										<g transform="matrix(1,0,0,1,184,104)" opacity="1" style="display: none;">
+											<g opacity="1" transform="matrix(4,0,0,4,0,0)">
+												<path fill="rgb(92,173,255)" fill-opacity="1"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+												<path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0"
+													  stroke-miterlimit="4" stroke="rgb(91,173,255)" stroke-opacity="1"
+													  stroke-width="7.49987587991608"
+													  d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z"></path>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</div>
+						</div>
+						<h2 class="ck-h2-new max-w-[15ch] relative z-[4]">A data foundation you can build on</h2>
+						<div class="lg:text-lg mb-16 text-lg font-normal max-w-[62ch] relative"><p class="mb-8">We
+							gather public data from the web, our proprietary data, and the power of LLMs to convert
+							unstructured information into precise and standardized data sets.</p>
+							<p>Get access to clean, precise, and reliable data that your B2B team needs to
+								go-to-market.</p></div>
+					</div>
+				</div>
+			</section>
+			<section class="rounded-b-3xl pb-6 px-1 md:pb-12 md:px-[8.875rem]">
+				<div class="lg:space-y-32 space-y-20">
+					<div class="max-w-screen-lg">
+						<div class="flex flex-col gap-10 lg:gap-20 lg:flex-row items-start justify-center">
+							<div class="lg:w-1/2 w-full">
+								<div class="xl:mx-0 max-w-[25rem] relative mx-auto w-full pt-10 xl:pt-0">
+									<div class="rotate-180 absolute w-[500px] h-[500px] xl:w-[1000px] xl:h-[1000px] top-[-5rem] left-[-8rem] xl:top-[-14rem] xl:left-[-16rem] z-[-1]">
+										<img class="object-contain select-none w-full h-full"
+											 src="https://clearbit.com/images/homepage/background-gradient.png" alt="background"
+											 loading="lazy"></div>
+									<img width="596" height="652"
+										 class="relative xl:absolute z-[2] xl:max-w-none xl:left-[-4rem]"
+										 src="https://clearbit.com/images/homepage/step-1@2x.png"
+										 srcset="https://clearbit.com/images/homepage/step-1.png 1x, https://clearbit.com/images/homepage/step-1@2x.png 2x"
+										 alt="Enrich every single record" loading="lazy"></div>
+							</div>
+							<div class="lg:w-1/2 w-full">
+								<div class="space-y-5 relative mt-[-2rem] md:mt-0 pb-16"><span
+										class="bg-violet-50 text-violet-500 border-violet-200 rounded-xl inline-block px-2 py-0.5 leading-tight text-xs lg:text-sm font-medium border">Data
+									for leads, contacts, and accounts</span>
+									<h2 class="ck-h4-new lg:ck-h5-new">Enrich every single record</h2>
+									<p class="lg:text-lg">Global coverage across every country, in any language.</p>
+									<span class="w-10/12 h-1 bg-repeat-x bg-center block"
+										  style="background-image:url(https://clearbit.com/images/homepage/dots-separator.png)"></span>
+									<p class="w-[105%]">Starting with the most precise data sources, we then incorporate
+										all other available sources to offer you the optimal combination of accuracy and
+										coverage.</p></div>
+							</div>
+						</div>
+					</div>
+					<div class="max-w-screen-lg">
+						<div class="flex flex-col gap-10 lg:gap-20 lg:flex-row-reverse items-start justify-center">
+							<div class="lg:w-1/2 w-full">
+								<div class="xl:mx-0 max-w-[25rem] relative mx-auto w-full pt-10 xl:pt-0 xl:scale-100 scale-125 z-[-1]">
+									<div class="absolute w-[500px] h-[500px] xl:w-[1000px] xl:h-[1000px] top-[-6rem] left-[-8rem] xl:top-[-20rem] xl:left-[-16rem] z-[-1]">
+										<img class="object-contain select-none w-full h-full"
+											 src="https://clearbit.com/images/homepage/background-gradient.png" alt="background"
+											 loading="lazy"></div>
+									<img width="424" height="509"
+										 class="relative xl:absolute z-[2] xl:max-w-none xl:left-[1rem] xl:-top-10"
+										 src="https://clearbit.com/images/homepage/step-2.png" srcset="https://clearbit.com/images/homepage/step-2.png 1x"
+										 alt="Score &amp; route instantly" loading="lazy"></div>
+							</div>
+							<div class="lg:w-1/2 w-full">
+								<div class="xl:mt-40 xl:mb-16 relative mt-[-2rem] md:mt-0 space-y-5"><span
+										class="bg-violet-50 text-violet-500 border-violet-200 rounded-xl inline-block px-2 py-0.5 leading-tight text-xs lg:text-sm font-medium border">Focus
+									on what matters</span>
+									<h2 class="ck-h4-new lg:ck-h5-new">Score &amp; route instantly</h2>
+									<p class="lg:text-lg">The data you need to score and route<br>every lead, in
+										real-time.</p><span class="w-10/12 h-1 bg-repeat-x bg-center block"
+															style="background-image:url(https://clearbit.com/images/homepage/dots-separator.png)"></span>
+									<p>Identify your high fit leads in real time and focus your team's efforts where
+										they matter most.</p></div>
+							</div>
+						</div>
+						<div>
+							<div class="w-full space-y-4"><span class="w-full mt-6 h-1 bg-repeat-x bg-center block"
+																style="background-image:url(https://clearbit.com/images/homepage/dots-separator.png)"></span>
+								<div class="xl:flex-row xl:gap-4 xl:flex grid items-center justify-between gap-6 pt-4">
+									<div class="xl:w-1/3 space-y-2">
+										<div class="flex items-center gap-2 font-medium">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												 viewBox="0 0 20 20" fill="none">
+												<path d="M3.125 3.125H13.75M3.125 7.70833H7.70833M3.125 12.2917H7.70833M3.125 16.875H13.75M15.2484 11.9151C15.7385 11.425 16.0417 10.7479 16.0417 10C16.0417 8.50423 14.8291 7.29167 13.3333 7.29167C11.8376 7.29167 10.625 8.50423 10.625 10C10.625 11.4958 11.8376 12.7083 13.3333 12.7083C14.0812 12.7083 14.7583 12.4052 15.2484 11.9151ZM15.2484 11.9151L16.6667 13.3333"
+													  stroke="#091135" stroke-width="1.5" stroke-linecap="round"
+													  stroke-linejoin="round"></path>
+											</svg>
+											Best in class industry info.
+										</div>
+										<div class="text-[#36394A]">The most granular possible industry categorization,
+											including 6 digit NAICS, GICS, and SIC.
+										</div>
+									</div>
+									<div class="xl:w-1/3 space-y-2">
+										<div class="flex items-center gap-2 font-medium">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												 viewBox="0 0 20 20" fill="none">
+												<path d="M2.29169 3.95825H17.7084M7.29169 16.0416H12.7084M4.79169 9.99992H15.2084"
+													  stroke="#091135" stroke-width="1.5" stroke-linecap="round"></path>
+											</svg>
+											Corporate Hierarchies.
+										</div>
+										<div class="text-[#36394A] xl:max-w-[26ch]">Understand parent companies and
+											subsidiaries to route the right lead to the right rep.
+										</div>
+									</div>
+									<div class="xl:w-1/3 space-y-2">
+										<div class="flex items-center gap-2 font-medium">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												 viewBox="0 0 20 20" fill="none">
+												<path d="M14.7917 16.0417H16.9551C17.9242 16.0417 18.7103 15.2074 18.4449 14.2754C17.834 12.1308 16.3908 10.625 14.1667 10.625C13.795 10.625 13.4451 10.6671 13.1173 10.7471M9.37499 5.83333C9.37499 7.3291 8.16243 8.54167 6.66666 8.54167C5.17089 8.54167 3.95833 7.3291 3.95833 5.83333C3.95833 4.33756 5.17089 3.125 6.66666 3.125C8.16243 3.125 9.37499 4.33756 9.37499 5.83333ZM16.4583 6.25C16.4583 7.51565 15.4323 8.54167 14.1667 8.54167C12.901 8.54167 11.875 7.51565 11.875 6.25C11.875 4.98435 12.901 3.95833 14.1667 3.95833C15.4323 3.95833 16.4583 4.98435 16.4583 6.25ZM1.73438 15.105C2.38323 12.4889 4.04904 10.625 6.66666 10.625C9.28428 10.625 10.9501 12.4889 11.5989 15.105C11.832 16.0449 11.0504 16.875 10.082 16.875H3.25131C2.28296 16.875 1.50128 16.0449 1.73438 15.105Z"
+													  stroke="#091135" stroke-width="1.5" stroke-linecap="round"
+													  stroke-linejoin="round"></path>
+											</svg>
+											Normalized Role &amp; Seniority.
+										</div>
+										<div class="text-[#36394A] xl:max-w-[30ch]">Turn titles into a standardized set
+											of roles and seniorities to easily map your systems to your Ideal Customer
+											Profile.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="max-w-screen-lg">
+						<div class="flex flex-col gap-10 lg:gap-20 lg:flex-row items-start justify-center">
+							<div class="lg:w-1/2 w-full">
+								<div class="xl:mx-0 xl:pt-0 relative w-full max-w-full pt-20 mx-auto z-[-1]">
+									<div class="rotate-180 absolute w-[500px] h-[500px] xl:w-[1000px] xl:h-[1000px] top-[-5rem] left-[-8rem] xl:top-[-14rem] xl:left-[-22rem] z-[-1]">
+										<img class="object-contain select-none w-full h-full"
+											 src="https://clearbit.com/images/homepage/background-gradient.png" alt="background"
+											 loading="lazy"></div>
+									<img width="530" height="565"
+										 class="relative ml-8 xl:absolute z-[2] max-w-[20rem] xl:max-w-none xl:left-[-5rem] xl:top-[1rem]"
+										 src="https://clearbit.com/images/homepage/step-3@2x.png"
+										 srcset="https://clearbit.com/images/homepage/step-3.png 1x, https://clearbit.com/images/homepage/step-3@2x.png 2x"
+										 alt="Reveal buying intent" loading="lazy"></div>
+							</div>
+							<div class="lg:w-1/2 w-full">
+								<div class="xl:my-16 relative mt-0 space-y-5"><span
+										class="bg-violet-50 text-violet-500 border-violet-200 rounded-xl inline-block px-2 py-0.5 leading-tight text-xs lg:text-sm font-medium border">Identify
+									hidden intent</span>
+									<h2 class="ck-h4-new lg:ck-h5-new">Reveal buying intent</h2>
+									<p class="lg:text-lg">Turn your anonymous website traffic into real buying intent
+										signals with our best-in-class IP intelligence data.</p><span
+											class="w-10/12 h-1 bg-repeat-x bg-center block"
+											style="background-image:url(https://clearbit.com/images/homepage/dots-separator.png)"></span>
+									<p class="w-[105%]">The visitor dashboard highlights companies that match your ideal
+										customer profile, enabling you to concentrate outbound efforts on qualified
+										companies that are showing interest.</p><span
+											class="w-10/12 h-1 bg-repeat-x bg-center block"
+											style="background-image:url(https://clearbit.com/images/homepage/dots-separator.png)"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="max-w-screen-lg">
+						<div class="flex flex-col gap-10 lg:gap-20 lg:flex-row-reverse items-start justify-center">
+							<div class="lg:w-1/2 w-full">
+								<div class="xl:mx-0 xl:pt-0 relative w-full max-w-full pt-20 mx-auto z-[-1]">
+									<div class="absolute w-[500px] h-[500px] xl:w-[1000px] xl:h-[1000px] top-[-5rem] left-[-8rem] xl:top-[-14rem] xl:left-[-22rem] z-[-1]">
+										<img class="object-contain select-none w-full h-full"
+											 src="https://clearbit.com/images/homepage/background-gradient.png" alt="background"
+											 loading="lazy"></div>
+									<img width="530" height="565"
+										 class="relative ml-8 xl:absolute z-[2] max-w-[20rem] xl:max-w-none xl:left-[-5rem] xl:top-[1rem]"
+										 src="https://clearbit.com/images/homepage/step-forms2x.png"
+										 srcset="https://clearbit.com/images/homepage/step-forms.png 1x, https://clearbit.com/images/homepage/step-forms2x.png 2x"
+										 alt="Convert more leads" loading="lazy"></div>
+							</div>
+							<div class="lg:w-1/2 w-full">
+								<div class="xl:my-16 relative mt-[-2rem] md:mt-0 space-y-5"><span
+										class="bg-violet-50 text-violet-500 border-violet-200 rounded-xl inline-block px-2 py-0.5 leading-tight text-xs lg:text-sm font-medium border">Form
+									shortening</span>
+									<h2 class="ck-h4-new lg:ck-h5-new">Shorter forms convert better</h2>
+									<p class="lg:text-lg">Reduce friction be removing fields that Clearbit can enrich
+										simply by collecting an email address.</p><span
+											class="w-10/12 h-1 bg-repeat-x bg-center block"
+											style="background-image:url(https://clearbit.com/images/homepage/dots-separator.png)"></span>
+									<p class="w-[105%]"><span class="font-medium">Dynamic Form Shortening</span> only
+										shows necessary fields if an enrichment value isn't available ensuring 100% data
+										coverage for your leads.</p></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="z-10 antialiased font-medium">
+			<hr class="border-none h-[1px] mt-10 w-full bg-gray-100">
+			<div class="main-container pb-11 md:pb-16 md:flex flex-wrap items-start pt-16">
+				<div class="lg:flex-row lg:justify-between flex flex-col items-center justify-center font-normal"
+					 style="flex:1 0 100%">
+					<div class="md:flex md:justify-center md:space-y-0 md:space-x-12 lg:mb-0 lg:order-2 mb-8 space-y-6 text-center">
+						<a class="block text-sm hover:opacity-[65%]  " href="/trust">Trust Center</a><a
+							class="block text-sm hover:opacity-[65%]  " href="/privacy-policy">Privacy Policy</a><a
+							class="block text-sm hover:opacity-[65%]  " rel="noreferrer" target="_blank"
+							href="https://clearbit.statuspage.io/">Status</a><a
+							class="block text-sm hover:opacity-[65%]  " href="/support">Support</a><a
+							class="block text-sm hover:opacity-[65%]  " href="/legal">Legal</a><a
+							class="block text-sm hover:opacity-[65%]  " href="/ccpa-opt-out">Do Not Sell My Info</a>
+						<button class="block text-sm hover:opacity-[65%] mx-auto">Manage Cookies</button>
+					</div>
+					<div class="lg:order-1 flex items-center space-x-6 text-center">
+						<div class="flex items-center "><a
+								class="relative z-10 inline-flex items-center flex-1 h-full font-bold cursor-pointer"
+								href="/"><img alt="Clearbit by HubSpot" src="https://clearbit.com/clearbit_by_hubspot.png" width="160"></a>
+						</div>
+						<div class="text-sm text-[#666D80]">© <!-- -->2025<!-- --> Clearbit</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+{% endblock %}
+

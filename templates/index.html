@@ -2,12 +2,21 @@
 {% block body %}
 	<div class="container mx-auto px-4 py-5">
 		<h1 class="my-custom-style">
-			Some Text with My Custom Styles
+			Django + Tailwind
 		</h1>
 		<hr class="my-10">
 		<h1 class="text-3xl text-green-800">
-			This Text with Tailwind Styles
+			By Mohammad Shekari
 		</h1>
+		<div class="my-5">
+			<hr>
+		</div>
+		<div class="my-5">
+			<a class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+			   href="/demo-1">Demo 1</a>
+			<a class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
+			   href="/demo-2">Demo 2</a>
+		</div>
 	</div>
 	<script>
         document.querySelector('h1').classList.add('text-orange-800')

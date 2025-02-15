@@ -25,7 +25,17 @@ class HomeView(TemplateView):
     template_name = 'index.html'
 
 
+class Demo1View(TemplateView):
+    template_name = 'demo1.html'
+
+
+class Demo2View(TemplateView):
+    template_name = 'demo2.html'
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home'),
+    path('demo-1', Demo1View.as_view(), name='demo_1'),
+    path('demo-2', Demo2View.as_view(), name='demo_2'),
 ]

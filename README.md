@@ -69,6 +69,15 @@ content: [
     '../templates/**/*.html',
 ],
 ```
+### Adding `input.css`
+Create a CSS file at `tailwind/src/input.css` and add the following code:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 
 ### Adding Build Scripts
 

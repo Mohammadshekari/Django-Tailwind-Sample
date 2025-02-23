@@ -13,6 +13,16 @@ git clone https://github.com/Mohammadshekari/Django-Tailwind-Sample.git
 cd Django-Tailwind-Sample
 ```
 
+Create a virtualenv and Install python libraries:
+```sh
+pip install -r requirements.txt
+```
+
+then run django project with:
+```sh
+python manage.py runserver
+```
+
 Navigate to the `tailwind` directory:
 
 ```sh
@@ -72,9 +82,11 @@ This command creates a `tailwind.config.js` file.
 Update the `content` section to scan Django templates:
 
 ```js
+...
 content: [
     '../templates/**/*.html',
 ],
+...
 ```
 
 ### Adding `input.css`

@@ -35,6 +35,13 @@ npm run dev
 
 ### Setting Up Tailwind in Your Django Project
 
+Make sure you have Node.js and npm installed. You can check by running:
+
+```sh
+node -v
+npm -v
+```
+
 Create and Navigate to the `tailwind` directory:
 
 ```sh
@@ -69,7 +76,9 @@ content: [
     '../templates/**/*.html',
 ],
 ```
+
 ### Adding `input.css`
+
 Create a CSS file at `tailwind/src/input.css` and add the following code:
 
 ```css
@@ -78,15 +87,14 @@ Create a CSS file at `tailwind/src/input.css` and add the following code:
 @tailwind utilities;
 ```
 
-
 ### Adding Build Scripts
 
 Modify your `package.json` and add these scripts under `scripts`:
 
 ```json
 "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ../static/src/output.css --watch --minify",
-    "build": "npx tailwindcss -i ./src/input.css -o ../static/src/output.css --minify"
+"dev": "npx tailwindcss -i ./src/input.css -o ../static/src/output.css --watch --minify",
+"build": "npx tailwindcss -i ./src/input.css -o ../static/src/output.css --minify"
 }
 ```
 
